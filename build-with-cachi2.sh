@@ -11,4 +11,5 @@ podman build "$DIR" \
     -t cachi2-dashdot \
     -f Dockerfile.cachi2 \
     -v "/tmp/cachi2-output:/cachi2:z" \
-    --network none
+    --network none \
+    --no-cache
