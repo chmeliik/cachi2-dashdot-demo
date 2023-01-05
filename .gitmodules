@@ -1,0 +1,4 @@
+[submodule "dashdotdb"]
+	path = dashdotdb
+	url = https://github.com/chmeliik/dashdotdb
+	branch = cachi2-requirements
